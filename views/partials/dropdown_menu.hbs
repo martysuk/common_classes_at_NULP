@@ -1,0 +1,34 @@
+<h2>Institute</h2>
+<div class="styled-select black rounded">
+    <select>
+        <option value='ІМФН' selected='selected'>ІМФН</option>
+        {{#each all_institutes}}
+            <option value={{createMenu name}}>{{createMenu name}}</option>
+        {{/each}}
+    </select>
+</div>
+<div class="styled-select black rounded">
+    <select>
+        <option value='ІКНІ' selected='selected'>ІКНІ</option>
+        {{#each all_institutes}}
+            <option value={{createMenu name}}>{{createMenu name}}</option>
+        {{/each}}
+    </select>
+</div>
+<h2>Groups</h2>
+<div class="styled-select black rounded">
+    <select>
+        <option value='ПМ-31' selected='selected'>ПМ-31</option>
+        {{#each groups_1}}
+        <option value={{createMenu name}}>{{createMenu name}} </option>
+        {{/each}}
+    </select>
+</div>
+<div class="styled-select black rounded">
+    <select>
+        <option value='КН-319' selected='selected'>КН-319</option>
+        {{#each groups_2}}
+        <option value={{createMenu name}}>{{createMenu name}} </option>
+        {{/each}}
+    </select>
+</div>

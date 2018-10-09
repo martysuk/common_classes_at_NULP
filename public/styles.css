@@ -1,0 +1,39 @@
+div { margin: 20px;}
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    overflow: hidden;
+    height: 29px;
+    width: 240px;
+ }
+ .styled-select select {
+    background: transparent;
+    background-color: #000;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 240px;
+ }
+ .black select{ color: #fff; }
+
+ .rounded {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+ }
+ .black   { background-color: #000; }
+ 
+ table, td, th {    
+    border: 3px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    padding: 15px;
+}

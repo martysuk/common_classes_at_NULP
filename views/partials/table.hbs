@@ -1,0 +1,11 @@
+<table>
+    <tr>
+        <th>Day</th>
+        <th>Common classes</th>
+        {{#each common}}
+            <tr>
+                <td value={{dayOfWeek item}}>{{dayOfWeek item}}</td>
+                <td>{{commonClasses item}}</td>
+            </tr>
+        {{/each}}
+</table>

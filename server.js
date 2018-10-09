@@ -1,7 +1,7 @@
 const express = require('express'),
     hbs = require('hbs'),
     processing = require('./dataProcessing'),
-    port = 3000 //process.env.PORT || 3000
+    port = process.env.PORT || 3000
 
 let app = express();
 
